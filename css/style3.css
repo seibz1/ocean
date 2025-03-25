@@ -75,9 +75,12 @@ header {
 
 
 section.videos {
-    margin-top: 140px; 
-    height: calc(100% - 140px); 
-    position: relative;
+ margin-top: 140px;
+            height: calc(100% - 140px);
+            position: relative;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
 }
 
 
